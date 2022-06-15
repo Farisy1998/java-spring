@@ -1,0 +1,13 @@
+package com.spring.springorm.product.test;
+
+import java.applet.AppletContext;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+
+	public static void main(String[] args) {
+		AppletContext context = new ClassPathXmlApplicationContext("com/spring/springorm/product/test/Config.xml");
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.spring.springmvcorm.user.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.spring.springmvcorm.user.services.UserService;
+
+@Controller
+public class UserController {
+
+	@Autowired
+	private UserService service;
+
+	public UserService getService() {
+		return service;
+	}
+
+	public void setService(UserService service) {
+		this.service = service;
+	}
+
+	@RequestMapping("regPage")
+	public String shoRegPage() {
+		return "UserReg";
+	}
+
+}

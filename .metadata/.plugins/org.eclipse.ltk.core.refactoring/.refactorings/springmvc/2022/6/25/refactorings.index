@@ -1,0 +1,11 @@
+1655130917737	Delete element
+1655132067316	Rename resource 'Config.xml'
+1655132885453	Rename package 'com.spring.springmvc'
+1655188947673	Extract local variable 'attributeValue'
+1655189921442	Copy compilation unit
+1655197561674	Extract local variable 'modelAndView'
+1655197694288	Rename resource 'UserReg.jsp'
+1655197730575	Rename resource 'displayList.jsp'
+1655197882031	Rename resource 'display.jsp'
+1655198077904	Rename resource 'userReg.jsp'
+1655221419781	Extract local variable 'modelAndView'

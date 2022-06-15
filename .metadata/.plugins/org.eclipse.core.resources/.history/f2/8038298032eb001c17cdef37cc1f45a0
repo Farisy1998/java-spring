@@ -1,0 +1,5 @@
+package com.spring.springmvctest.controller;
+
+public class TestController {
+
+}

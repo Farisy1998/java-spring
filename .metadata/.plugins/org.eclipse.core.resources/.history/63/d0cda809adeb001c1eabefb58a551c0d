@@ -1,0 +1,10 @@
+package com.spring.springmvc.controller;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public class ObjectController {
+	public ModelAndView sendObject() {
+		ModelAndView modelAndView = new ModelAndView();
+		return modelAndView;
+	}
+}

@@ -1,0 +1,22 @@
+package com.spring.springorm.product.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.spring.springorm.product.dao.ProductDAO;
+import com.spring.springorm.product.entity.Product;
+
+public class Test {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/spring/springorm/product/test/Config.xml");
+		ProductDAO dao = (ProductDAO) context.getBean("dao");
+		Product product = new Product();
+		product.setId(1);
+		product.setName("Monitor");
+		product.setDes("18 inch");
+		product.setPrice(10000.0);
+		System.out.println("No: of rows affected: "+dao.create(product));
+	}
+
+}

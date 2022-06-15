@@ -1,0 +1,12 @@
+package com.spring.springmvc;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class HelloController {
+	public ModelAndView hello() {
+		ModelAndView modelandview = new ModelAndView();
+		return modelandview;
+	}
+}

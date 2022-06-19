@@ -1,0 +1,12 @@
+127.0.0.1 - - [17/Jun/2022:09:26:57 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:26:58 +0530] "GET /springmvcorm/ HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:27:15 +0530] "GET /springmvcorm/getUsers HTTP/1.1" 200 395
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:27:53 +0530] "GET /springmvcorm/getUsers HTTP/1.1" 200 388
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:27:54 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:28:11 +0530] "GET /springmvcorm/regPage HTTP/1.1" 200 1018
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:28:16 +0530] "GET /springmvcorm/validateEmail?id=0 HTTP/1.1" 200 29
+127.0.0.1 - - [17/Jun/2022:09:31:57 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:32:09 +0530] "GET /springmvcorm/ HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:32:33 +0530] "GET /springmvcorm/regPage HTTP/1.1" 200 1073
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:32:38 +0530] "GET /springmvcorm/validateEmail?id=1 HTTP/1.1" 200 29
+0:0:0:0:0:0:0:1 - - [17/Jun/2022:09:32:46 +0530] "GET /springmvcorm/validateEmail?id=5 HTTP/1.1" 200 -

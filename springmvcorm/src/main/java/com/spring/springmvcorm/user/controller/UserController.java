@@ -10,6 +10,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.spring.springmvcorm.user.entity.User;
 import com.spring.springmvcorm.user.services.UserService;
@@ -36,7 +38,7 @@ public class UserController {
 	@RequestMapping(value = "saveReg", method = RequestMethod.POST)
 	public String saveReg(@ModelAttribute("user") User user, ModelMap modelMap) {
 		int result = service.save(user);
-		modelMap.addAttribute("user","User registered with id: "+result);
+		modelMap.addAttribute("user", "User registered with id: " + result);
 		return "userReg";
 	}
 
@@ -44,10 +46,19 @@ public class UserController {
 	public String getUsers(ModelMap map) {
 		List<User> usersList = service.loadAll();
 		map.addAttribute("users", usersList);
-		for(User user: usersList) {
+		for (User user : usersList) {
 			System.out.println(user);
 		}
 		return "displayUsers";
 	}
-	
+
+	@RequestMapping("validateEmail")
+	public @ResponseBody String validateEmail(@RequestParam("id") int id) {
+		User user = service.getUser(id);
+		String msg = "";
+		if (user != null) {
+			msg = "User already exist with id: " + id;
+		}
+		return msg;
+	}
 }

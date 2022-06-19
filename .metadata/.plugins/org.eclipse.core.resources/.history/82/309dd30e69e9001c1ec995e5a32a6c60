@@ -1,5 +1,0 @@
-package com.spring.springorm.passenger.dao;
-
-public interface PassengerDAO {
-
-}

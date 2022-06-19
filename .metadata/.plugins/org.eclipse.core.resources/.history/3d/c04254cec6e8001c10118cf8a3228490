@@ -1,5 +1,0 @@
-package com.spring.springorm.product.dao;
-
-public interface ProductDAO {
-
-}

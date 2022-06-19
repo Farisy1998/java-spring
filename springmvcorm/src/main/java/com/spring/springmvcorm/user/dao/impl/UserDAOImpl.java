@@ -35,4 +35,9 @@ public class UserDAOImpl implements UserDAO {
 		return usersList;
 	}
 
+	@Override
+	public User findUser(Integer id) {
+		return hibernateTemp.get(User.class, id);
+	}
+
 }

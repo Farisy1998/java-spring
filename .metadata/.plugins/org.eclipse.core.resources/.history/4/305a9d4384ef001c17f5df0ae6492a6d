@@ -1,0 +1,17 @@
+package com.spring.springjavaconfig;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Test {
+
+	public static void main(String[] args) {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+		Service service = context.getBean(Service.class);
+		service.hashCode();
+		Service servic2 = new Service();
+		servic2.hashCode();
+		service.save();
+		context.close();
+	}
+
+}

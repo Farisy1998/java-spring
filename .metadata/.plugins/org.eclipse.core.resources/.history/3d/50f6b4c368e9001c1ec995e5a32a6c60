@@ -1,5 +1,0 @@
-package com.spring.springorm.passenger.entity;
-
-public class Passenger {
-
-}

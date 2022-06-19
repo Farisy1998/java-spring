@@ -59,6 +59,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\java-spring\My projects\springaop"/>
 			<item value="D:\java-spring\My projects\springmvctest\src\main\webapp\WEB-INF\dispatcher-servlet.xml"/>
 			<item value="D:\java-spring\My projects\testspringjdbc"/>
 		</list>
@@ -73,6 +74,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.springjavaconfig"/>
+			<item value="com.spring.springaop"/>
 			<item value="com.spring.springmvcorm"/>
 			<item value="com.spring"/>
 			<item value="com.spring.springmvctest"/>
@@ -84,6 +87,8 @@
 			<item value="com.spring"/>
 		</list>
 		<list key="artifactId">
+			<item value="springjavaconfig"/>
+			<item value="springaop"/>
 			<item value="springmvcorm"/>
 			<item value="springmvctest"/>
 			<item value="springmvc"/>

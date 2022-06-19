@@ -1,0 +1,5 @@
+package com.spring.springmvccore.controller;
+
+public class WebServletConfiguration {
+
+}

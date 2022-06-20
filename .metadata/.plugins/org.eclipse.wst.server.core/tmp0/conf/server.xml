@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="springmvctest" path="/springmvctest" reloadable="true" source="org.eclipse.jst.j2ee.server:springmvctest"/><Context docBase="springmvcorm" path="/springmvcorm" reloadable="true" source="org.eclipse.jst.j2ee.server:springmvcorm"/><Context docBase="springmvccore" path="/springmvccore" reloadable="true" source="org.eclipse.jst.jee.server:springmvccore"/><Context docBase="springmvc" path="/springmvccore" reloadable="true" source="org.eclipse.jst.j2ee.server:springmvc"/><Context docBase="springmvc" path="/springmvccore" reloadable="true" source="org.eclipse.jst.jee.server:springmvc"/><Context docBase="springmvcproj" path="/springmvccore" reloadable="true" source="org.eclipse.jst.j2ee.server:springmvcproj"/></Host>
+      <Context docBase="D:\java-spring\My projects\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\java-spring\My projects\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\springmvcorm" path="/springmvcorm" reloadable="true" source="org.eclipse.jst.j2ee.server:springmvcorm"/><Context docBase="D:\java-spring\My projects\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\javaspringmvc" path="/javaspringmvc" reloadable="true" source="org.eclipse.jst.j2ee.server:javaspringmvc"/></Host>
     </Engine>
   </Service>
 </Server>

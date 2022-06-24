@@ -12,7 +12,7 @@
     
     <bean name="mydao" class="com.farisy.spring.testspringcore.propertyplaceholder.MyDAO">
     	<constructor-arg>
-    		<value>${dbserver}</value>
+    		<value>${dbServer}</value>
     	</constructor-arg>
     	<constructor-arg>
     		<value>${dbPort}</value>

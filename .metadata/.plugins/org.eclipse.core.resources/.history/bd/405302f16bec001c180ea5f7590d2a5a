@@ -1,7 +1,0 @@
-package com.spring.springmvcorm.user.dao.impl;
-
-import com.spring.springmvcorm.user.dao.UserDAO;
-
-public class UserDAOImpl implements UserDAO {
-
-}

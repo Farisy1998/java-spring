@@ -33,6 +33,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\java-spring\My projects\collegeadm"/>
+			<item value="D:\java-spring\My projects\springboot"/>
 			<item value="D:\java-spring\My projects\testspringjdbc"/>
 			<item value="D:\java-spring\My projects\testspringcoreadvanced"/>
 			<item value="D:\java-spring\My projects\testspringcore"/>
@@ -76,32 +78,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.spring.javaspringmvc"/>
-			<item value="com.spring.springmvcproj"/>
-			<item value="com.spring.springmvccore"/>
-			<item value="com.spring.springmvc"/>
-			<item value="com.spring.springjavaconfig"/>
-			<item value="com.spring.springaop"/>
-			<item value="com.spring.springmvcorm"/>
-			<item value="com.spring"/>
-			<item value="com.spring.springmvctest"/>
-			<item value="com.spring.springorm"/>
-			<item value="com.spring.orm"/>
 		</list>
 		<list key="groupId">
-			<item value="com.spring"/>
 		</list>
 		<list key="artifactId">
-			<item value="javaspringmvc"/>
-			<item value="springmvcproj"/>
-			<item value="springmvccore"/>
-			<item value="springmvc"/>
-			<item value="springjavaconfig"/>
-			<item value="springaop"/>
-			<item value="springmvcorm"/>
-			<item value="springmvctest"/>
-			<item value="springorm"/>
-			<item value="orm"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

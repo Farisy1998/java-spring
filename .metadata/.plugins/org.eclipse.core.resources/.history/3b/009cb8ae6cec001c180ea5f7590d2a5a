@@ -1,7 +1,0 @@
-package com.spring.springmvcorm.user.services.impl;
-
-import com.spring.springmvcorm.user.services.UserService;
-
-public class UserServiceImpl implements UserService {
-
-}

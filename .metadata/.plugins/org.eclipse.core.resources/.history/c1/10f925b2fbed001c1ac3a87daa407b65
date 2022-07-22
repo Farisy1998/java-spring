@@ -1,5 +1,0 @@
-package com.spring.springaop;
-
-public interface ProductService {
-
-}

@@ -33,6 +33,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\java-spring\My projects\NutsAndSpices"/>
 			<item value="D:\java-spring\My projects\collegeadm"/>
 			<item value="D:\java-spring\My projects\springboot"/>
 			<item value="D:\java-spring\My projects\testspringjdbc"/>
@@ -49,7 +50,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item value="All Catalogs" key="catalog"/>
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>

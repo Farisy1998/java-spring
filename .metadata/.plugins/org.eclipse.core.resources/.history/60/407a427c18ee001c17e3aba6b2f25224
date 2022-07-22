@@ -1,7 +1,0 @@
-package com.spring.springjavaconfig;
-
-public class DAO {
-	public void create(){
-		System.out.println("Inside create()");
-	}
-}
